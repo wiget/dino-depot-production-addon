@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "production": [
+    {
+      "dinoType": "/Gryphons/Subspecies/Mountain/Gryphon_Character_BP.Gryphon_Character_BP",
+      "chanceToProduce": 1.0,
+      "produces": [
+        {
+          "intervalSeconds": 300.00,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": [],
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.0,
+              "alternateItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Gryphons/Subspecies/Arctic/Gryphon_Arctic_Character_BP.Gryphon_Arctic_Character_BP",
+      "chanceToProduce": 1.0,
+      "produces": [
+        {
+          "intervalSeconds": 300.00,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": [],
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.0,
+              "alternateItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Gryphons/Subspecies/Pygmy/Gryphon_Pygmy_Character_BP.Gryphon_Pygmy_Character_BP",
+      "chanceToProduce": 1.0,
+      "produces": [
+        {
+          "intervalSeconds": 300.00,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "quantityPerDino": 1,
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": [],
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.0,
+              "alternateItems": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
