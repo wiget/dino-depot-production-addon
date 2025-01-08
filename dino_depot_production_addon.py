@@ -13,7 +13,7 @@ def main():
     passive_production = response.json()
     gryphons = json.loads(pathlib.Path("gryphons.json").read_text())
     passive_production["production"] += gryphons["production"]
-    print(passive_production)
+    pathlib.Path("extended.json").write_text(json.dumps(passive_production, indent=2))
 
 
 if __name__ == '__main__':
